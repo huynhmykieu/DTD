@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tailwind Demo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body class="pt-12">
+    <!-- Header Top -->
+    <div class="header-top bg-gray-100 fixed top-0 left-0 w-full z-50 py-2">
+      <div
+        class="container mx-auto px-4 flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2 text-sm text-center sm:text-left"
+      >
+        <div
+          class="flex flex-col sm:flex-row gap-1 sm:gap-4 justify-center sm:justify-start"
+        >
+          <span>MST: 3702960895</span>
+          <span>
+            <a href="tel:0918882477">
+              Hotline: <span class="text-red-600 font-bold">0918.882.477</span>
+            </a>
+          </span>
+        </div>
+        <div class="text-gray-700">
+          Đại Thành Đạt – Uy tín tạo nên thương hiệu, chất lượng khẳng định niềm tin.
+        </div>
+      </div>
+    </div>
+
+    <!-- Header Bottom -->
+    <div class="header-bottom pt-2">
+      <div class="container mx-auto my-4 px-4">
+        <ul class="flex flex-col md:flex-row gap-2 md:gap-4 items-center">
+          <li>
+            <a href="./index.html" class="logo rounded text-xl font-bold"
+              >ĐIỆN MÁY ĐẠI THÀNH ĐẠT</a
+            >
+          </li>
+          <li>
+            <a href="./index.html" class="block px-2 py-1 hover:text-blue-600"
+              >Trang chủ</a
+            >
+          </li>
+          <li>
+            <a href="./contact.html" class="block px-2 py-1 hover:text-blue-600"
+              >Liên hệ</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Banner -->
+    <div class="bg-gradient-to-r from-blue-50 to-blue-100 py-16 md:py-20 px-4">
+      <div class="container mx-auto text-center max-w-4xl">
+        <h1
+          class="text-2xl sm:text-3xl md:text-4xl font-bold text-blue-700 mb-4"
+        >
+          Chào mừng quý khách đến với
+          <span class="text-red-600">Điện Máy Đại Thành Đạt</span>!
+        </h1>
+
+        <p class="text-base sm:text-lg text-gray-700 mb-4">
+          Chuyên cung cấp
+          <span class="font-semibold text-blue-600"
+            >điện máy, điện lạnh, điện gia dụng</span
+          >
+          chất lượng cao với giá cả cạnh tranh, cam kết
+          <span class="font-bold text-red-500">giá rẻ nhất thị trường</span> đi
+          cùng chất lượng vượt trội.
+        </p>
+
+        <p class="text-sm sm:text-base text-gray-600 mb-6">
+          Với đội ngũ kỹ thuật viên
+          <span class="font-medium text-blue-600">giàu kinh nghiệm</span>, tay
+          nghề cao và tác phong chuyên nghiệp, chúng tôi sẵn sàng hỗ trợ lắp
+          đặt, bảo trì thiết bị điện lạnh, điện gia dụng và cấu hình hệ thống
+          camera cho
+          <span class="font-semibold text-blue-700"
+            >hộ gia đình, doanh nghiệp và tổ chức toàn quốc</span
+          >.
+        </p>
+
+        <a
+          href="tel:0918882477"
+          class="inline-block bg-red-600 text-white px-5 py-2 rounded-full hover:bg-red-700 transition text-sm sm:text-base"
+        >
+          Liên hệ ngay
+        </a>
+      </div>
+    </div>
+
+    <!-- Product -->
+    <div class="product container mx-auto my-10 px-4 text-center max-w-7xl">
+      <h2 class="font-semibold text-3xl sm:text-4xl mb-6">
+        Danh mục các sản phẩm nổi bật của chúng tôi
+      </h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-6">
+        <div class="product-item bg-white p-4 rounded shadow">
+          <img
+            src="./icons/air-conditioner-svgrepo-com.svg"
+            alt="Máy lạnh"
+            class="h-[160px] mx-auto"
+          />
+          <h3 class="text-xl font-bold mt-2">Máy lạnh</h3>
+        </div>
+        <div class="product-item bg-white p-4 rounded shadow">
+          <img
+            src="./icons/refrigerator-svgrepo-com.svg"
+            alt="Tủ lạnh"
+            class="h-[160px] mx-auto"
+          />
+          <h3 class="text-xl font-bold mt-2">Tủ lạnh</h3>
+        </div>
+        <div class="product-item bg-white p-4 rounded shadow">
+          <img
+            src="./icons/washing-machine-svgrepo-com.svg"
+            alt="Máy giặt"
+            class="h-[160px] mx-auto"
+          />
+          <h3 class="text-xl font-bold mt-2">Máy giặt</h3>
+        </div>
+        <div class="product-item bg-white p-4 rounded shadow">
+          <img
+            src="./icons/television-tv-svgrepo-com.svg"
+            alt="Tivi"
+            class="h-[160px] mx-auto"
+          />
+          <h3 class="text-xl font-bold mt-2">Tivi</h3>
+        </div>
+        <div class="product-item bg-white p-4 rounded shadow">
+          <img
+            src="./icons/electric-stovetop-svgrepo-com.svg"
+            alt="Bếp điện, bếp hồng ngoại"
+            class="h-[160px] mx-auto"
+          />
+          <h3 class="text-xl font-bold mt-2">Bếp điện, bếp hồng ngoại</h3>
+        </div>
+        <div class="product-item bg-white p-4 rounded shadow">
+          <img
+            src="./icons/rice-cooker-svgrepo-com.svg"
+            alt="Nồi cơm điện"
+            class="h-[160px] mx-auto"
+          />
+          <h3 class="text-xl font-bold mt-2">Nồi cơm điện</h3>
+        </div>
+        <div class="product-item bg-white p-4 rounded shadow">
+          <img
+            src="./icons/cooler-svgrepo-com.svg"
+            alt="Quạt máy, quạt trần"
+            class="h-[160px] mx-auto"
+          />
+          <h3 class="text-xl font-bold mt-2">Quạt máy, quạt trần</h3>
+        </div>
+        <div class="product-item bg-white p-4 rounded shadow">
+          <img
+            src="./icons/vacuum-cleaner-svgrepo-com.svg"
+            alt="Máy hút bụi"
+            class="h-[160px] mx-auto"
+          />
+          <h3 class="text-xl font-bold mt-2">Máy hút bụi</h3>
+        </div>
+        <div class="product-item bg-white p-4 rounded shadow">
+          <img
+            src="./icons/noun-oil-free-fryer-5218260.svg"
+            alt="Nồi chiên không dầu"
+            class="h-[160px] mx-auto"
+          />
+          <h3 class="text-xl font-bold mt-2">Nồi chiên không dầu</h3>
+        </div>
+        <div class="product-item bg-white p-4 rounded shadow">
+          <img
+            src="./icons/noun-portable-stove-1624966.svg"
+            alt="Bếp ga"
+            class="h-[160px] mx-auto"
+          />
+          <h3 class="text-xl font-bold mt-2">Bếp ga</h3>
+        </div>
+        <div class="product-item bg-white p-4 rounded shadow">
+          <img
+            src="./icons/noun-water-purifier-4576884.svg"
+            alt="Máy lọc nước"
+            class="h-[160px] mx-auto"
+          />
+          <h3 class="text-xl font-bold mt-2">Máy lọc nước</h3>
+        </div>
+        <div class="product-item bg-white p-4 rounded shadow">
+          <img
+            src="./icons/blender-svgrepo-com.svg"
+            alt="Máy xay sinh tố"
+            class="h-[160px] mx-auto"
+          />
+          <h3 class="text-xl font-bold mt-2">Máy xay sinh tố</h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- Brand -->
+    <div class="brand bg-gray-100 py-10">
+      <div class="container mx-auto px-4 text-center max-w-7xl">
+        <h2 class="font-semibold text-3xl sm:text-4xl mb-8">
+          Thương hiệu nổi bật
+        </h2>
+        <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-6">
+          <div class="bg-white p-4 rounded shadow">
+            <h3 class="font-semibold">Daikin</h3>
+          </div>
+          <div class="bg-white p-4 rounded shadow">
+            <h3 class="font-semibold">Samsung</h3>
+          </div>
+          <div class="bg-white p-4 rounded shadow">
+            <h3 class="font-semibold">LG</h3>
+          </div>
+          <div class="bg-white p-4 rounded shadow">
+            <h3 class="font-semibold">Panasonic</h3>
+          </div>
+          <div class="bg-white p-4 rounded shadow">
+            <h3 class="font-semibold">Electrolux</h3>
+          </div>
+          <div class="bg-white p-4 rounded shadow">
+            <h3 class="font-semibold">Kangaroo</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer bg-gray-800 py-6 text-white text-center px-4">
+      <p class="text-lg">
+        Email:
+        <a href="mailto:tongngocan@gmail.com" class="underline">
+          tongngocan@gmail.com
+        </a>
+      </p>
+
+      <p class="mt-2">
+        Địa chỉ:
+        <a
+          href="https://www.google.com/maps?q=81+Đường+Thạnh+Quý,+Phường+Thuận+An,+TP.HCM"
+          target="_blank"
+          class="underline"
+        >
+          81 Đường Thạnh Quý, Phường Thuận An, TP.HCM
+        </a>
+      </p>
+
+      <p class="text-sm text-gray-400 mt-4">
+        © 2018 Đại Thành Đạt. All rights reserved.
+      </p>
+    </footer>
+
+    <!-- Nút Zalo + Messenger nổi, Messenger nằm trên Zalo -->
+    <div class="fixed bottom-6 right-6 flex flex-col gap-3 z-50">
+      <!-- Messenger -->
+      <a
+        href="https://m.me/daithanhdat.dienmay"
+        target="_blank"
+        rel="noopener"
+        title="Chat Messenger"
+        class="bg-blue-500 hover:bg-blue-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg"
+      >
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/b/be/Facebook_Messenger_logo_2020.svg"
+          alt="Messenger"
+          class="w-8 h-8"
+        />
+      </a>
+
+      <!-- Zalo -->
+      <a
+        href="https://zalo.me/0918882477"
+        target="_blank"
+        rel="noopener"
+        title="Chat Zalo"
+        class="bg-blue-500 hover:bg-blue-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg"
+      >
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/9/91/Icon_of_Zalo.svg"
+          alt="Zalo"
+          class="w-8 h-8"
+        />
+      </a>
+    </div>
+  </body>
+</html>
